@@ -12,9 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    [Parse setApplicationId:@"ENTER PARSE APPLICATION ID HERE"
-                  clientKey:@"ENTER PARSE CLIENT KEY HERE"];
+    // Parse account keys for `SaveAllTest` app
+    [Parse setApplicationId:@"pM947NqcYEgHeWMYtpv6uxibsrSPOoV5PqFA7uds"
+                  clientKey:@"pDgbnaTrsw62F1gc5VBVLiUcRqNlWEeC1lMLdRNe"];
     
     return YES;
 }
